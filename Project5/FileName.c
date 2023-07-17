@@ -2,9 +2,11 @@
 
 int main()
 {
-	int i, j;
+	int i, j, t;
+printf("มูภิทย:");
+scanf("%d", &t);
 
-	for (i = 1; i <= 7; i++)
+	for (i = 1; i <= t; i++)
 	{
 		for (j = 1; j <= i; j++)
 		{
